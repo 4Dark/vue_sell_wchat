@@ -19,12 +19,13 @@
     <div class="content">
 
     </div>
+    <!--路由外链，当改变路由，会刷新该处当内容-->
     <router-view></router-view>
   </div>
 </template>
 
 <script>
-  import header from './components/header/header'
+  import header from 'components/header/header'
 
   const ERR_OK = 0
   export default {
